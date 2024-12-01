@@ -71,31 +71,54 @@ input[type="radio"]:checked {
   border: 0.9px solid #C8C8C8;
   padding: 20px;
   margin-bottom: 15px;
-  border: 0.9px 0px 0px 0px;
   overflow: hidden;
   max-height: 25px; 
-  
 }
 
 .cart-option.expanded {
   max-height: 300px;
   background-color: #FFF9FA;
-  border: 2px solid #FF6B82;
+  border-color: #FF6B82;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content:right;
+  margin-right:7px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-bottom: 7px solid #f7576f;
+}
+
+.rectangle {
+  width: 89px;
+  background-color: #FF6B82;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-right: 4px solid transparent;
+  border-bottom: 7px solid #f7576f;  
 }
 
  .cart-option:nth-of-type(2) .most-popular {
   position: absolute;
   font-weight: bold;
-  padding: 5px 10px;
-  border-radius: 5px;
+  padding: 2px 4px;
   left:240px;
-  top:2px;
+  top:-2px;
   color: #fff;
   font-size: 10px;
-  padding: 1.5px 3px;
-  border-radius: 4px;
+  border-radius: 0px 0px 4px 4px;
   background: #FF6B82;
   text-align: center;
+  border:none;
 }
 
 .details {
