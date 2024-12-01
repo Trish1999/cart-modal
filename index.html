@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="cart-container">
+    <header class="heading">
+     <hr/>
+     <h1>YAY! It's BOGO</h1>
+     <hr/>
+    </header>
+    <section>
+      <form id="cartForm" class="cart">
+      <div class="sections">
+        <!-- 1 Unit Option -->
+        <article class="cart-option">
+          <label>
+          <span class="details">
+          <div>
+            <input type="radio" name="cartOption" value="1" data-price="10">
+              <span class="unit"> 1 Unit</span>
+              <span class="discount">10% Off</span>
+              </div>
+              <div>
+              <span class="price">$10.00 USD</span><br/>
+              <span class="original-price">$24.00 USD</span>
+              </div>
+            </span>
+          </label>
+            <div class="product-options ">
+            <div class="id">
+            <br/>
+              <span>#1</span>
+              <span>#2</span>
+              </div>
+            <div>
+              <label for="size1">Size:</label>
+              <select id="size1" name="size1">
+               <option value="Size" disabled selected>Size</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+                <select id="size1" name="size1">
+                <option value="Size" disabled selected>Size</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+            </div>
+            <div>
+              <label for="color1">Colour:</label>
+              <select id="color1" name="color1">
+                <option value="Colour" disabled selected>Colour</option>
+                <option value="Black">Black</option>
+                <option value="Blue">Blue</option>
+                <option value="Red">Red</option>
+              </select>
+                <select id="color1" name="color1">
+                <option value="Colour" disabled selected>Colour</option>
+                <option value="Black">Black</option>
+                <option value="Blue">Blue</option>
+                <option value="Red">Red</option>
+              </select>
+            </div>
+          </div>
+        </article>
+        <!-- 2 Units Option -->
+        <article class="cart-option expanded">
+        <span class="most-popular">MOST POPULAR</span>
+          <label>
+            <span class="details">
+          <div>
+            <input type="radio" name="cartOption" value="2" data-price="18" checked>
+              <span class="unit">2 Units</span>
+              <span class="discount">20% Off</span>
+              </div>
+              <div>
+              <span class="price">$18.00 USD</span><br/>
+              <span class="original-price">$24.00 USD</span>
+              </div>
+            </span>
+          </label>
+          <!-- Size and Color -->
+            <div class="product-options">
+            <div class="id">
+            <br/>
+              <span>#1</span>
+              <span>#2</span>
+              </div>
+            <div>
+              <label for="size1">Size:</label>
+              <select id="size1" name="size1">
+               <option value="Size" disabled selected>Size</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+                <select id="size1" name="size1">
+                <option value="Size" disabled selected>Size</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+            </div>
+            <div>
+              <label for="color1">Colour:</label>
+              <select id="color1" name="color1">
+                <option value="Colour" disabled selected>Colour</option>
+                <option value="Black">Black</option>
+                <option value="Blue">Blue</option>
+                <option value="Red">Red</option>
+              </select>
+                <select id="color1" name="color1">
+                <option value="Colour" disabled selected>Colour</option>
+                <option value="Black">Black</option>
+                <option value="Blue">Blue</option>
+                <option value="Red">Red</option>
+              </select>
+            </div>
+          </div>
+        </article>
+        <!-- 3 Units Option -->
+        <article class="cart-option">
+          <label>
+          <span class="details">
+          <div>
+            <input type="radio" name="cartOption" value="3" data-price="24">
+              <span class="units">3 Units</span>
+              <span class="discount">30% Off</span>
+              </div>
+              <div>
+              <span class="price">$24.00 USD</span><br/>
+              <span class="original-price">$24.00 USD</span>
+              </div>
+            </span>
+          </label>
+            <div class="product-options">
+            <div class="id">
+            <br/>
+              <span>#1</span>
+              <span>#2</span>
+              </div>
+            <div>
+              <label for="size1">Size:</label>
+              <select id="size1" name="size1">
+               <option value="Size" disabled selected>Size</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+                <select id="size1" name="size1">
+                <option value="Size" disabled selected>Size</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+            </div>
+            <div>
+              <label for="color1">Colour:</label>
+              <select id="color1" name="color1">
+                <option value="Colour" disabled selected>Colour</option>
+                <option value="Black">Black</option>
+                <option value="Blue">Blue</option>
+                <option value="Red">Red</option>
+              </select>
+                <select id="color1" name="color1">
+                <option value="Colour" disabled selected>Colour</option>
+                <option value="Black">Black</option>
+                <option value="Blue">Blue</option>
+                <option value="Red">Red</option>
+              </select>
+            </div>
+          </div>
+        </article>
+        </div>
+        <div class="end">
+        <div class="last">
+        <p class="free-delivery">Free Delivery</p>
+          <p>Total: <span id="totalPrice">$10.00 USD</span></p>
+          </div>
+        <footer class="cart-footer">
+          <button type="button" id="addToCart"> + Add to Cart</button>
+        </footer>
+        <p class="power">@ Powered by Pumper</p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
